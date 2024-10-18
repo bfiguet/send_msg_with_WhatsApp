@@ -6,7 +6,10 @@ import pywhatkit
 # you need to open whatsapp web and connect in
 
 #sending programmed msg
-#pywhatkit.sendwhatmsg("+330642216673", "Hi", 11, 50)
+pywhatkit.sendwhatmsg("+330629216675", "Hello you", 12, 35)
+
+# Same as above but Closes the Tab in 2 Seconds after Sending the Message
+#pywhatkit.sendwhatmsg("+910123456789", "Hi", 13, 30, 15, True, 2)
 
 #send msg to group instantly
 #pywhatkit.sendwhatmsg_to_group_instantly("address_to_invitation_group", "👋 Hello!")
